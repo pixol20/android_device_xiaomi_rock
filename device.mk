@@ -334,10 +334,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Google camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
-# Google PDF
-PRODUCT_PACKAGES += \
     GooglePDFViewer
 
 # Properties
