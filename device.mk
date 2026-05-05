@@ -332,9 +332,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
-# Google camera
-PRODUCT_PACKAGES += \
-    GooglePDFViewer
 
 # Properties
 include $(LOCAL_PATH)/config/prop/default.mk
