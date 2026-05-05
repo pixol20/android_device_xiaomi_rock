@@ -108,7 +108,7 @@ blob_fixups: blob_fixups_user_type = {
 
     # VoLTE
     'vendor/bin/mtk_agpsd': blob_fixup()
-        .replace_needed('libcrypto.so', 'libcrypto-v32.so'),
+        .replace_needed('libcrypto.so', 'libcrypto-md.so'),
     'vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so': blob_fixup()
 	    .clear_symbol_version('AHardwareBuffer_allocate')
 	    .clear_symbol_version('AHardwareBuffer_describe')
